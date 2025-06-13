@@ -1,0 +1,56 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background-color: #2b6cb0;
+  color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+.about, .projects {
+  margin: 30px auto;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .projects h2 {
+  color: #2b6cb0;
+  margin-bottom: 10px;
+}
+
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.projects li {
+  background: #edf2f7;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 4px solid #2b6cb0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+}
